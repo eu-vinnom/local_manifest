@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+           
+  <!--Device-->
+  <project name="eu-vinnom/android_device_xiaomi_beryllium" path="device/xiaomi/beryllium" remote="github" revision="lineage-17.1" />
+  <project name="eu-vinnom/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="lineage-17.1" />
+  <!--Kernel-->
+  <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/stock" remote="github" revision="lineage-17.1" />
+  <!--Vendor-->
+  <project name="crdroidandroid/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="10.0-beryllium" />
+  <project name="PixelExperience/vendor_xiaomi-firmware" path="vendor/xiaomi-firmware" remote="gitlab" revision="ten" />
+  <!--Misc-->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-17.1" />
+</manifest>
